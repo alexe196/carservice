@@ -1,0 +1,58 @@
+.block-sidebar-vidget{
+    position: relative;
+}
+.list-franchize-name{
+    list-style: none;
+    display: block;
+    position: relative;
+}
+.list-franchize-name li {
+    line-height: 25px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+.list-franchize-name li:hover {
+    color: #00A8EF;
+}
+.top-block-search-service-result{
+    border: 1px solid #9e9e9e;
+    padding: 15px;
+    border-top: 0px;
+    display: none;
+}
+.bottom-block-search_service_result{
+    border: 1px solid #9e9e9e;
+    padding: 15px;
+    margin-top: 25px;
+    display: none;
+}
+.p-franchize-name {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.p-franchize-info a{
+    display: block;
+    text-align: center;
+}
+.p-franchize-txt{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.p-franchize-img{
+    text-align: center;
+}
+.prload_franchize {
+    width: 70px;
+    height: 70px;
+    background-image: url('/wp-content/plugins/carservice/assets/img/load.gif');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1000;
+    left: 40%;
+    top: 18%;
+    display: none;
+}
